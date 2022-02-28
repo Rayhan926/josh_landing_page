@@ -2,17 +2,16 @@ import TwitterIcon from '../icons/TwitterIcon'
 import DiscordIcon from '../icons/DiscordIcon'
 function Home() {
   return (
-    <div className="bg-black font-roboto-mono" >
+    <div className="bg-black font-roboto-mono" style={{
+      backgroundImage: "url('/blinking_bg.gif')",
+      backgroundSize: '40%',
+      backgroundPosition: 'top'
+    }}>
       <div className="container max-w-4xl lg:mx-auto text-white pt-20 text-center">
         <h1 className="font-bold text-5xl mb-4" >Your Logo</h1>
         <p className="text-white/70" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quasi.</p>
       </div>
       <div className="overflow-hidden text-white pt-20"
-        style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/tshirt_bg.png')",
-          backgroundSize: '100%',
-          backgroundPosition: 'top'
-        }}
       >
         <div className="max-w-4xl lg:mx-auto">
           <div className="w-full h-full mx-auto">
